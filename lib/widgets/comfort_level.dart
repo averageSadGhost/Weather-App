@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:weather/model/weather_data_current.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 import 'package:weather/utils/custom_colors.dart';

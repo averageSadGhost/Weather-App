@@ -5,6 +5,7 @@ import 'package:weather/controller/global_controller.dart';
 import 'package:weather/utils/custom_colors.dart';
 import '../model/weather_data_hourly.dart';
 
+// ignore: must_be_immutable
 class HourlyDataWidget extends StatelessWidget {
   final WeatherDataHourly weatherDataHourly;
   HourlyDataWidget({super.key, required this.weatherDataHourly});
@@ -76,6 +77,7 @@ class HourlyDataWidget extends StatelessWidget {
   }
 }
 
+// ignore: must_be_immutable
 class HourDetails extends StatelessWidget {
   double temp;
   String date;
